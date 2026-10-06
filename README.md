@@ -22,6 +22,8 @@ moment the firmware starts accepting commands again, and the state goes back to
 movement command after it goes out (the firmware does not acknowledge the stuck move
 until the filament has been reloaded, so no movement is sent before then).
 
+![OctoPrint's state panel during a real stall: State: Error, with the reason underneath](assets/octoprint-state.png)
+
 ## Why "Error"
 
 OctoPrint's state is a fixed set of strings and Home Assistant's integration maps them
